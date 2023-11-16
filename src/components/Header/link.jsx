@@ -3,3 +3,4 @@ export default function LinkHeader ({href, text}) {
         <a href={href}> {text} </a>
     )
 }
+
