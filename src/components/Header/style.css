@@ -15,6 +15,11 @@
   gap: 100px;
 }
 
+.ImgsComponents {
+  cursor: pointer;
+}
+
+
 .menu {
   width: 500px;
   display: flex;
@@ -22,11 +27,34 @@
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
+  color: red;  
 }
 
-.bota {
+.menu a {
+  color: aliceblue;
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+.menu a:hover {
+  color: #F86F03;
+}
+
+.headerButton {
   width: 150px;
   height: 40px;
-  color: red;
+  color: #461959;
+  font: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  line-height: 21.6px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.headerButton span:hover {
+  border-bottom: 2px solid;
+  transition: 1ms;
 }
 

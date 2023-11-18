@@ -1,7 +1,7 @@
-export default function ImgsComponents({src, alt}) {
+export default function ImgsComponents({src, alt, className}) {
   return (
     <>
-      <img src= {src} alt= {alt} />
+      <img className={className} src={src} alt={alt} />
     </>  
   )
 }

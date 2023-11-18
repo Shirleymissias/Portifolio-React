@@ -9,17 +9,18 @@ export default function Header() {
     return (
       <>
         <div className="header">
-          <ImgsComponents src={Logo} alt={"Logo da Empresa"} />
+          <ImgsComponents className="ImgsComponents" src={Logo} alt="Logo da Empresa" />
+
           <div className="menu">
-            <LinkHeader rhef="#" text="Home" />
-            <LinkHeader rhef="#" text="About Me" />
-            <LinkHeader rhef="#" text="Services" />
-            <LinkHeader rhef="#" text="Skils" />
-            <LinkHeader rhef="#" text="Potifolio" />
-            <LinkHeader rhef="#" text="Contacts" />
+            <LinkHeader href="#" text="Home" />
+            <LinkHeader href="#" text="About Me" />
+            <LinkHeader href="#" text="Services" />
+            <LinkHeader href="#" text="Skils" />
+            <LinkHeader href="#" text="Potifolio" />
+            <LinkHeader href="#" text="Contacts" />
           </div>  
           
-           <Button text="Login" />          
+          <Button className="headerButton" text="Hire Me" />          
         </div>
       </>
     );
