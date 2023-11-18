@@ -6,4 +6,13 @@
 
 .banner {
     background-color: #31055A;
+    width: 1366px;
+    height: 776px;
+    display: flex;   
+    padding-top: 60px;
+}
+
+.ImgBaner {
+    width: 577px;
+    height: 683px;
 }
