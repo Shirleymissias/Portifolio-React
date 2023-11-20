@@ -5,12 +5,12 @@
     display: flex;   
     justify-content: center;
     gap: 50px;
-    padding-top: 60px;
+    padding-top: 100px;
 }
 
 .ImgBaner {
     width: 30%;
-    height: 85%;
+    height: 80%;
 }
 
 .bannerText {
