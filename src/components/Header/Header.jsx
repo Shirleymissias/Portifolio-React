@@ -1,8 +1,9 @@
 import ImgsComponents from "../../ImgsComponents/ImgsComponents"
-import LinkHeader from "./link"
+import LinkHeader from "./links"
 import Logo from "../../img/Logo.png"
 import Button from "../Button/Button"
 import "./style.css"
+import "../../styles.globals.css"
 
 
 export default function Header() {

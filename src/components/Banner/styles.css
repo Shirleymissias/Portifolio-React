@@ -1,18 +1,88 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .banner {
     background-color: #31055A;
-    width: 1366px;
-    height: 776px;
+    width: 100%;
+    height: 600px;
     display: flex;   
+    justify-content: center;
+    gap: 50px;
     padding-top: 60px;
 }
 
 .ImgBaner {
-    width: 577px;
-    height: 683px;
+    width: 30%;
+    height: 85%;
 }
+
+.bannerText {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.bannerText >p:first-child {
+    font-size: 30px;
+    font-weight: 600;
+    color: #F86F03;
+}
+
+.bannerText >h1 { 
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.bannerText >h3 {
+    font-size: 35px;
+    line-height: 42px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 15px;
+} 
+
+.bannerText >h3>span {
+    color: #F86F03;
+}
+
+.bannerText >p:last-of-type {
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.bannerSocialMedia a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bannerSocialMedia {
+    width: 192px;
+    height: 31px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.bannerSocialMedia img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    padding: 7px;
+    border-radius: 50px;
+}
+
+.bannerBTN {
+    width: 200px;
+    height: 40.87px;
+    border-radius: 20px;
+    border: none;
+    background-color: #F86F03;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
