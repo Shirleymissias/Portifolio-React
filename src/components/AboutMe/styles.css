@@ -1,0 +1,68 @@
+.about {
+    background-color: #170550;
+    color: #fff;
+    width:  100%;
+    height: 43rem;
+}
+
+.about h1{
+    padding-top: 2rem;
+    font-size: 2.5rem;
+    font-weight:  600;
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+    position: relative;
+    left: 50%;
+}
+
+.Me {
+    color: #F86F03;
+}
+
+.aboutContent {
+    height: 37.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.aboutText {
+    width: 40rem;
+    height: 26rem;
+    padding: 0.7rem;
+}
+
+.aboutText h2 {
+    width: 20rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.aboutText p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+    text-align: justify;    
+}
+
+.btnAbout {
+    width: 11.5rem;
+    height: 2.6rem;
+    color: #461959;
+    font-size: 1.1em;
+    font-weight: 700;
+    border: none;
+    border-radius: 1.2rem;
+    background-color: #fff;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+
+.btnAbout span:hover {
+    border-bottom: 2px solid;
+    transition: 1ms;
+  }
