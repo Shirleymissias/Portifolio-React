@@ -1,7 +1,7 @@
-import AbouteMe from "../../img/about.svg"
-import ImgsComponents from "../../ImgsComponents/ImgsComponents"
+import AbouteMe from "../../assets/img/about.svg"
+import ImgsComponents from "../../components/ImgsComponents/ImgsComponents"
 import "../../styles.globals.css"
-import Button from "../Button/Button"
+import Button from "../../components/Button/Button"
 import "./styles.css"
 
 

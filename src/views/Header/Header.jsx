@@ -1,7 +1,7 @@
-import ImgsComponents from "../../ImgsComponents/ImgsComponents"
+import ImgsComponents from "../../components/ImgsComponents/ImgsComponents"
 import LinkHeader from "./links"
-import Logo from "../../img/Logo.png"
-import Button from "../Button/Button"
+import Logo from "../../assets/img/Logo.png"
+import Button from "../../components/Button/Button"
 import "./style.css"
 import "../../styles.globals.css"
 

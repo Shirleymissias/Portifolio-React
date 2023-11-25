@@ -1,8 +1,7 @@
-import AboutMe from "./components/AboutMe/AboutMe"
-import Banner from "./components/Banner/Banner"
-import Header from "./components/Header/Header"
-import MyServices from "./components/MyServices/MyServices"
-
+import AboutMe from "./views/AboutMe/AboutMe";
+import Banner from "./views/Banner/Banner";
+import Header from "./views/Header/Header";
+import MyServices from "./views/MyServices/MyServices";
 
 
 
