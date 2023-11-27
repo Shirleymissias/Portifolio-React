@@ -1,12 +1,12 @@
-import "./"
+import "./styles.css"
 
-export default function Cards (img,title,text) {
+export default function CardService ({poster, descpription,title,text}) {
     return(
         <>
             <div className="card">
-                <img src={img} alt="" />
-                <h1>{title}</h1>
-                <p>{text}</p>
+               <img src={poster} alt={descpription} />
+               <h1>{title}</h1>
+               <p>{text}</p>
             </div>
         </>
     )

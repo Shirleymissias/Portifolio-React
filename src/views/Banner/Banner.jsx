@@ -6,7 +6,7 @@ import GitHub from "../../assets/img/gitHub.svg"
 import Instagran from "../../assets/img/instagram.svg"
 import "./styles.css"
 import "../../styles.globals.css"
-import LinkHeader from "../Header/links";
+import LinkHeader from "../../components/Links/links"
 import Button from "../../components/Button/Button";
 
 
@@ -23,12 +23,12 @@ export default function Banner() {
 
                     <div className="bannerSocialMedia">
                         <LinkHeader href="#" text={<ImgsComponents src={Facebook} alt="Redes Sociais" />} />
-                        <LinkHeader href="#" text={<><><ImgsComponents src={Linkedin} alt="Redes Sociais" /></></>} />
-                        <LinkHeader href="#" text={<><><ImgsComponents src={GitHub} alt="Redes Sociais" /></></>} />
-                        <LinkHeader href="#" text={<><><ImgsComponents src={Instagran} alt="Redes Sociais" /></></>} />
+                        <LinkHeader href="#" text={<ImgsComponents src={Linkedin} alt="Redes Sociais" />} />
+                        <LinkHeader href="#" text={<ImgsComponents src={GitHub} alt="Redes Sociais" />} />
+                        <LinkHeader href="#" text={<ImgsComponents src={Instagran} alt="Redes Sociais" />} />
                     </div>
 
-                    <LinkHeader href="#" text={<><><Button className="bannerBTN" text="Download CV" /></></>} />
+                    <LinkHeader href="#" text={<Button className="bannerBTN" text="Download CV" />} />
                 </div>
 
                 <ImgsComponents className="ImgBaner" src={ImgBanner} alt="Imagem" />

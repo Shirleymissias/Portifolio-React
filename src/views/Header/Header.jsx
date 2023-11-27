@@ -1,5 +1,5 @@
 import ImgsComponents from "../../components/ImgsComponents/ImgsComponents"
-import LinkHeader from "./links"
+import LinkHeader from "../../components/Links/links"
 import Logo from "../../assets/img/Logo.png"
 import Button from "../../components/Button/Button"
 import "./style.css"
