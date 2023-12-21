@@ -3,10 +3,15 @@ import App from '../App'
 import About from '../views/AboutMe/AboutMe'
 import Banner from '../views/Banner/Banner'
 import Home from '../views/Home/index'
+import Footer from '../views/Footer/Footer'
+import ErrorPage from '../components/Error/Error'
+import MyServices from '../views/MyServices/MyServices'
 
 const router = createBrowserRouter ([
     {
+        path: '/',
         element: <App />,
+        errorElement: <ErrorPage />,
         children: [
             {
                 path: '/',
@@ -21,6 +26,14 @@ const router = createBrowserRouter ([
             {
                 path: '/about',
                 element: <About />
+            },
+            {
+                path:'myServices',
+                element: <MyServices />
+            },
+            {
+                path: '/footer',
+                element: <Footer />
             }
         ]
     }

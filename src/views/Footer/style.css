@@ -1,0 +1,15 @@
+.root {
+  height: 70px;
+  background-color: rgba(49, 6, 90, 1);
+  display: flex;
+  align-items: center;
+  color: #fff;
+  width: 100%;
+ 
+}
+
+h4 {
+ margin-left: 130px;
+ font-weight: 600;
+ letter-spacing: 1px;
+}
