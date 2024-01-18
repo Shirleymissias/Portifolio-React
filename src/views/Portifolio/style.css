@@ -1,0 +1,44 @@
+.portRoot {
+  background-color: rgba(49, 6, 90, 1);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.portTitle {
+  color: #fff;
+  font-weight: 600;
+  font-size: 37px;
+  border-bottom: 1px solid #fff;
+  padding: 5px;
+  display: inline-block;  
+  margin-top: 50px;
+  margin-bottom: 55px;
+}
+
+.GroupImgs{
+  width: 900px ;
+  height: 400px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.portimg {
+  width: 200px;
+  height: 150px;
+  cursor: pointer; 
+}
+
+.portimg:hover {
+  opacity: 0.7;
+  border: 1px solid #9B5CF2;
+  border-radius: 10px;
+  box-shadow: 1px 1px 0.5px #AD5CFA;
+  transition: 0.9s;
+  text
+}

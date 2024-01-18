@@ -6,6 +6,7 @@ import Home from '../views/Home/index'
 import Footer from '../views/Footer/Footer'
 import ErrorPage from '../components/Error/Error'
 import MyServices from '../views/MyServices/MyServices'
+import Portifolio from '../views/Portifolio'
 
 const router = createBrowserRouter ([
     {
@@ -34,6 +35,10 @@ const router = createBrowserRouter ([
             {
                 path: '/footer',
                 element: <Footer />
+            },
+            {
+                path: 'portifolio',
+                element: <Portifolio />
             }
         ]
     }
