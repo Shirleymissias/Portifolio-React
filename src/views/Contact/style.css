@@ -9,12 +9,14 @@
   font-weight: 600;
   font-size: 37px;
   border-bottom: 1px solid #fff;
-  padding: 5px;
+  width: 190px;
+  padding: 25px 25px 5px 25px;
   display: inline-block;  
   margin-top: 70px;
   margin-bottom: 95px;
   position: relative;
   left: 40%;
+  
 }
 
 .contactInfo {

@@ -64,11 +64,6 @@ export default function Contact() {
                   placeholder="Subject"
                   className="contactNum"
                 />
-                {/* <input
-                    type="text"
-                    placeholder="Your Message"
-                    className="contactMessage"
-                /> */}
                 <textarea
                   name=""
                   id="msg"

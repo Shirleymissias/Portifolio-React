@@ -21,6 +21,7 @@ export default function Header() {
             <Link to="/">Home</Link>
             <Link to="/About">About Me</Link>
             <Link to="/myServices">Services</Link>
+            <Link to="mySkills">Skills</Link>
             <Link to="/portifolio">Portifolio</Link>
             <Link to="/contact">Contact</Link>
           </div>

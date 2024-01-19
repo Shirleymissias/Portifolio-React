@@ -8,6 +8,7 @@ import ErrorPage from '../components/Error/Error'
 import MyServices from '../views/MyServices/MyServices'
 import Portifolio from '../views/Portifolio'
 import Contact from '../views/Contact'
+import MySkills from '../views/MySkills'
 
 const router = createBrowserRouter ([
     {
@@ -32,6 +33,10 @@ const router = createBrowserRouter ([
             {
                 path:'myServices',
                 element: <MyServices />
+            },
+            {
+                path:'mySkills',
+                element: <MySkills />
             },
             {
                 path: '/footer',
