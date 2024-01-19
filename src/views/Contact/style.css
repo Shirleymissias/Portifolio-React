@@ -1,4 +1,128 @@
 .conatctRoot {
+    padding-bottom: 80px;
     background-color: #170550;
     color: #fff;
 }
+
+.conatctRoot h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 37px;
+  border-bottom: 1px solid #fff;
+  padding: 5px;
+  display: inline-block;  
+  margin-top: 70px;
+  margin-bottom: 95px;
+  position: relative;
+  left: 40%;
+}
+
+.contactInfo {
+    width: 324px;
+    height: 180px;  
+    margin-top: 80px;
+}
+
+.contactItem {
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+    padding-bottom: 30px;   
+}
+
+.contactInfo p {
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.contactForm {
+    width: 657px;
+    height: 400px;
+}
+.contactForm input{    
+    border: none;
+    background-color: rgba(67, 54, 106, 1);
+    color: #FFF;
+}
+
+.contactText {
+    width: 657px;
+    height: 40px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.contactNum {
+    width: 325px;
+    height: 40px;  
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.contactNumTwo {
+    margin-right: 7px;
+}
+
+.contactMessage {
+    width: 657px;
+    height: 148px;
+    background-color: rgba(67, 54, 106, 1);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contactMessage:focus-visible {
+    outline: 2px solid #8853ea;
+}
+
+.contactButton {
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgba(67, 54, 106, 1);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+    left: 228.5px;
+    cursor: pointer;
+}
+
+.contactButton:hover {
+  box-shadow: 1px 1px #8853ea, 2px 2px #8853ea, 3px 3px #8853ea;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+  transition: 0.5s;
+  font-weight: 700;
+}
+
+.contactForm ::placeholder {
+    color: #fff;    
+    position: absolute;
+    top: 10px; 
+    left: 20px;
+}
+
+.contactForm  input:focus-visible {
+    outline: 2px solid #8853ea;
+}
+
+.contactConteudo {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
