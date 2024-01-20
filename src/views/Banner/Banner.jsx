@@ -8,18 +8,35 @@ import "./styles.css"
 import "../../styles.globals.css"
 import LinkHeader from "../../components/Links/links"
 import Button from "../../components/Button/Button";
+import { useState } from "react"
+import { useEffect } from "react"
 
 
 export default function Banner() {
+    
+    const [homeInfo, setHomeInfo] = useState([])
+
+    useEffect(() => {
+        fetch('http://127.0.0.1:3000/Home')
+        .then((res) => {
+            return res.json();
+        })
+        .then((data) => {
+            console.log(data);
+            setHomeInfo(data);
+        });
+    }, []);
+
+
     return (
         <>
             <div className="banner">
 
                 <div className="bannerText">
                     <p>Hi, It's me</p>
-                    <h1>MD RIEAD MIA</h1>
-                    <h3>And I'm a <span>Frontend Developer</span></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eosdolorum ullam molestias autem deleniti iure earum!</p>
+                    <h1>{homeInfo.name}</h1>
+                    <h3>And I'm a <span>{homeInfo.role}</span></h3>
+                    <p>{homeInfo.info}</p>
 
                     <div className="bannerSocialMedia">
                         <LinkHeader href="#" text={<ImgsComponents src={Facebook} alt="Redes Sociais" />} />
