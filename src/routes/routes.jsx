@@ -9,6 +9,7 @@ import MyServices from '../views/MyServices/MyServices'
 import Portifolio from '../views/Portifolio'
 import Contact from '../views/Contact'
 import MySkills from '../views/MySkills'
+import DashBoard from '../views/Dashboard'
 
 const router = createBrowserRouter ([
     {
@@ -49,6 +50,10 @@ const router = createBrowserRouter ([
             {
                 path: 'contact',
                 element: <Contact />
+            },
+            {
+                path: '/DashBoard',
+                element: <DashBoard />
             }
         ]
     }

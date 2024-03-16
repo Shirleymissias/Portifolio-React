@@ -24,6 +24,7 @@ export default function Header() {
             <Link to="mySkills">Skills</Link>
             <Link to="/portifolio">Portifolio</Link>
             <Link to="/contact">Contact</Link>
+            <Link to="/dashBoard">DashBoard</Link>
           </div>
 
           <Button className="headerButton" text="Hire Me" />
